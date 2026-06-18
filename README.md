@@ -12,13 +12,25 @@ Build a local and reproducible framework for detecting unsupported or contradict
 
 ## Planned Components
 
-* Retrieval module
-* Evidence reranking module
-* Claim verification module
-* Hallucination classification module
-* Gated correction module
-* Evaluation scripts
+- Retrieval module
+- Evidence reranking module
+- Claim verification module
+- Hallucination classification module
+- Gated correction module
+- Evaluation scripts
+
+## Quick Start
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python scripts/run_demo.py
+```
 
 ## Notes
 
-This repository is under active development. Details, experiments, and documentation will be updated as the implementation matures.
+This repository is under active development.
+
+Implementation details, experiments, dataset preparation, and documentation will be updated as the project matures.
